@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/* line 1, ../sass/style.scss */
+@font-face {
+  font-family: 'Conv_MuseoSans-100';
+  src: url("../fonts/museosans/MuseoSans-100.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans-100.woff") format("woff"), rl("../fonts/museosans/MuseoSans-100.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-100.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans-100Italic';
+  src: url("../fonts/museosans/MuseoSans-100Italic.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans-100Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans-100Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-100Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans-300';
+  src: url("../fonts/museosans/MuseoSans-300.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans-300.woff") format("woff"), url("../fonts/museosans/MuseoSans-300.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-300.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans-300Italic';
+  src: url("../fonts/museosans/MuseoSans-300Italic.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans-300Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans-300Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-300Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans_500';
+  src: url("../fonts/museosans/MuseoSans_500.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans_500.woff") format("woff"), url("../fonts/museosans/MuseoSans_500.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_500.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans_500_Italic';
+  src: url("../fonts/museosans/MuseoSans_500_Italic.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans_500_Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans_500_Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_500_Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans_700';
+  src: url("../fonts/museosans/MuseoSans_700.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans_700.woff") format("woff"), url("../fonts/museosans/MuseoSans_700.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_700.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans-700Italic';
+  src: url("../fonts/MuseoSans-700Italic.eot");
+  src: local("☺"), url("../fonts/MuseoSans-700Italic.woff") format("woff"), url("../fonts/MuseoSans-700Italic.ttf") format("truetype"), url("../fonts/MuseoSans-700Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans_900';
+  src: url("../fonts/museosans/MuseoSans_900.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans_900.woff") format("woff"), url("../fonts/museosans/MuseoSans_900.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_900.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Conv_MuseoSans-900Italic';
+  src: url("../fonts/museosans/MuseoSans-900Italic.eot");
+  src: local("☺"), url("../fonts/museosans/MuseoSans-900Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans-900Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-900Italic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 97, ../sass/style.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 124, ../sass/style.scss */
+.gold-textcolor {
+  color: #ba8746;
+}
+
+/* line 130, ../sass/style.scss */
+.gold-bgcolor {
+  background-color: #ba8746;
+}
+
+/* line 136, ../sass/style.scss */
+html,
+body,
+div,
+span,
+a,
+ul,
+ol,
+li,
+form,
+label,
+input,
+button,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Conv_MuseoSans-300" !important;
+}
+
+/* line 159, ../sass/style.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* line 167, ../sass/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+span,
+a,
+label,
+input,
+button,
+form,
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  color: white;
+}
+
+/* line 193, ../sass/style.scss */
+#intro_video {
+  position: fixed;
+  z-index: -1;
+}
+
+/* line 198, ../sass/style.scss */
+.logo-container {
+  margin: 0 auto;
+  width: 146px;
+  min-height: 117px;
+  padding: 50px 0 0 0;
+}
+/* line 205, ../sass/style.scss */
+.logo-container #home-logo {
+  width: 146px;
+  height: 117px;
+  display: block;
+  background: url("../images/logohome.png") no-repeat top center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+/* line 216, ../sass/style.scss */
+#head {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  margin: 0 auto;
+  z-index: 99;
+}
+/* line 223, ../sass/style.scss */
+#head .head-side {
+  width: 50%;
+  height: inherit;
+}
+/* line 226, ../sass/style.scss */
+#head .head-side span {
+  padding: 15px 0 0 0;
+  display: inline-block;
+}
+/* line 229, ../sass/style.scss */
+#head .head-side span a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+/* line 236, ../sass/style.scss */
+#head #logo {
+  padding: 0 0 0 15px;
+  display: inline-block;
+}
+/* line 240, ../sass/style.scss */
+#head #logo span a {
+  display: block;
+  color: white;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+}
+/* line 242, ../sass/style.scss */
+#head #logo span a .logo-img {
+  height: 47px;
+  width: 185px;
+  margin: 7px 0 0 0;
+  background: url("../images/logoinside.png") no-repeat center center;
+}
+@media screen and (max-width: 768px) {
+  /* line 266, ../sass/style.scss */
+  #head #logo span a {
+    display: block;
+  }
+  /* line 268, ../sass/style.scss */
+  #head #logo span a .logo-img {
+    display: block;
+  }
+  /* line 272, ../sass/style.scss */
+  #head #logo span .logo-img {
+    display: block;
+  }
+}
+/* line 278, ../sass/style.scss */
+#head #burger-menu {
+  padding: 0 15px 0 0;
+  float: right;
+  text-align: right;
+  display: inline;
+}
+/* line 284, ../sass/style.scss */
+#head #burger-menu span a {
+  border: solid 1px rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+/* line 289, ../sass/style.scss */
+#head #burger-menu span a .bar-menu {
+  width: 70%;
+  height: 3px;
+  display: block;
+  background: #ba8746;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  padding: 0;
+}
+/* line 298, ../sass/style.scss */
+#head #burger-menu span a span:nth-child(1) {
+  margin-top: 29%;
+}
+/* line 302, ../sass/style.scss */
+#head #burger-menu span a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* line 311, ../sass/style.scss */
+.footer {
+  width: 100%;
+  padding: 0 2%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  margin: 0 auto;
+}
+/* line 318, ../sass/style.scss */
+.footer div {
+  height: 50px;
+  display: inline;
+  width: 50%;
+}
+/* line 323, ../sass/style.scss */
+.footer #foot-left {
+  float: left;
+  margin: 6px 0 0 0;
+}
+/* line 326, ../sass/style.scss */
+.footer #foot-left .copyright {
+  font-size: 12px;
+  margin: 12px 0 0 10px;
+  position: absolute;
+}
+/* line 333, ../sass/style.scss */
+.footer #foot-left a {
+  display: inline;
+}
+/* line 336, ../sass/style.scss */
+.footer #foot-left a span {
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  border: solid 1px #ba8746;
+  border-radius: 50%;
+}
+/* line 345, ../sass/style.scss */
+.footer #foot-left a:nth-child(1) span {
+  background: url("../images/icon-social.png") no-repeat center left;
+}
+/* line 350, ../sass/style.scss */
+.footer #foot-left a:nth-child(2) span {
+  background: url("../images/icon-social.png") no-repeat center right;
+}
+/* line 355, ../sass/style.scss */
+.footer #foot-right {
+  float: right;
+}
+/* line 357, ../sass/style.scss */
+.footer #foot-right a {
+  float: right;
+  padding: 4px 45px;
+  background: none;
+  border: solid 1px #ba8746;
+  color: #ba8746;
+  font-family: "Conv_MuseoSans_700" !important;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 371, ../sass/style.scss */
+.footer #foot-right #btn-share {
+  border: solid 1px #ccc;
+  color: #ccc;
+}
+
+/* line 378, ../sass/style.scss */
+.vertical {
+  width: 1px;
+  height: 17%;
+  margin: 0 auto;
+  display: block;
+  background: rgba(255, 255, 255, 0.25);
+  margin-top: 2%;
+}
+
+/* line 388, ../sass/style.scss */
+#opening-text h5 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  color: #ba8746;
+}
+/* line 398, ../sass/style.scss */
+#opening-text hr {
+  width: 30px;
+  height: 1px;
+  background: #ba8746;
+  color: #ba8746;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-color: #ba8746;
+}
+
+@media screen and (max-width: 480px) {
+  margin-top: 0;
+}
+/* line 417, ../sass/style.scss */
+#section0,
+#section1,
+#section2 {
+  z-index: 99;
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(x1, y1, x2, y2);
+}
+
+/* line 428, ../sass/style.scss */
+.section {
+  background: black;
+}
+
+/* line 432, ../sass/style.scss */
+#section0 {
+  background: none;
+}
+
+/* line 446, ../sass/style.scss */
+.container {
+  width: 100%;
+  height: 200px;
+}
+
+/* line 452, ../sass/style.scss */
+.section h2,
+.section h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 22%;
+  text-transform: uppercase;
+}
+/* line 459, ../sass/style.scss */
+.section h2 {
+  font-size: 60px;
+}
+/* line 464, ../sass/style.scss */
+.section h3 {
+  padding-top: 15%;
+}
+/* line 467, ../sass/style.scss */
+.section p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+}
+/* line 474, ../sass/style.scss */
+.section .services-wrapper {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 478, ../sass/style.scss */
+.section .services-wrapper a {
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  margin-top: 20%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: #ba8746;
+}
+/* line 488, ../sass/style.scss */
+.section .services-wrapper a .services-link {
+  display: block;
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  background: url("../images/icon-plus.png") no-repeat center left;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+/* line 499, ../sass/style.scss */
+.section .services-wrapper span {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: #ba8746;
+}
+
+/* line 508, ../sass/style.scss */
+.owl-theme .owl-controls {
+  margin-top: 40px;
+}
+
+/* line 517, ../sass/style.scss */
+.owl-carousel .owl-wrapper-outer .owl-wrapper .item a h1,
+.owl-carousel .owl-wrapper-outer .owl-wrapper .item a h5 {
+  text-align: center;
+}
+/* line 523, ../sass/style.scss */
+.owl-carousel .owl-wrapper-outer .owl-wrapper .item a h1 {
+  text-transform: uppercase;
+}
+
+/* line 537, ../sass/style.scss */
+.owl-theme .owl-controls .owl-page span {
+  width: 6px;
+  height: 6px;
+  background: #ba8746;
+}
+
+/* line 546, ../sass/style.scss */
+.action-wrapper {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+/* line 550, ../sass/style.scss */
+.action-wrapper .action-item {
+  width: 50%;
+  display: inline;
+  float: left;
+  margin: 50px 0 0 0;
+}
+/* line 556, ../sass/style.scss */
+.action-wrapper .action-item a span {
+  color: #ba8746;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+}
+/* line 565, ../sass/style.scss */
+.action-wrapper .action-item a .link-icon {
+  width: 125px;
+  height: 125px;
+  border: solid 1px #ba8746;
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* line 574, ../sass/style.scss */
+.action-wrapper .action-item a #link-about {
+  background: url("../images/icon-action.png") no-repeat bottom left;
+}
+/* line 577, ../sass/style.scss */
+.action-wrapper .action-item a #link-work {
+  background: url("../images/icon-action.png") no-repeat bottom center;
+}
+
+/* line 584, ../sass/style.scss */
+.svg-container {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+/* line 588, ../sass/style.scss */
+.svg-container svg {
+  margin: 0 auto;
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin-top: -71.5%;
+  -webkit-transition-duration: 3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-duration: 3s;
+  transition-timing-function: cubic-bezier(x1, y1, x2, y2);
+  opacity: 0.25;
+}

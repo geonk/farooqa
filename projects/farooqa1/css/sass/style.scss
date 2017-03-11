@@ -1,0 +1,601 @@
+/* line 1, ../sass/style.scss */
+
+@charset "UTF-8";
+@font-face {
+    font-family: 'Conv_MuseoSans-100';
+    src: url("../fonts/museosans/MuseoSans-100.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans-100.woff") format("woff"), rl("../fonts/museosans/MuseoSans-100.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-100.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans-100Italic';
+    src: url("../fonts/museosans/MuseoSans-100Italic.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans-100Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans-100Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-100Italic.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans-300';
+    src: url("../fonts/museosans/MuseoSans-300.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans-300.woff") format("woff"), url("../fonts/museosans/MuseoSans-300.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-300.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans-300Italic';
+    src: url("../fonts/museosans/MuseoSans-300Italic.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans-300Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans-300Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-300Italic.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans_500';
+    src: url("../fonts/museosans/MuseoSans_500.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans_500.woff") format("woff"), url("../fonts/museosans/MuseoSans_500.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_500.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans_500_Italic';
+    src: url("../fonts/museosans/MuseoSans_500_Italic.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans_500_Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans_500_Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_500_Italic.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans_700';
+    src: url("../fonts/museosans/MuseoSans_700.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans_700.woff") format("woff"), url("../fonts/museosans/MuseoSans_700.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_700.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans-700Italic';
+    src: url("../fonts/MuseoSans-700Italic.eot");
+    src: local("☺"), url("../fonts/MuseoSans-700Italic.woff") format("woff"), url("../fonts/MuseoSans-700Italic.ttf") format("truetype"), url("../fonts/MuseoSans-700Italic.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans_900';
+    src: url("../fonts/museosans/MuseoSans_900.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans_900.woff") format("woff"), url("../fonts/museosans/MuseoSans_900.ttf") format("truetype"), url("../fonts/museosans/MuseoSans_900.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_MuseoSans-900Italic';
+    src: url("../fonts/museosans/MuseoSans-900Italic.eot");
+    src: local("☺"), url("../fonts/museosans/MuseoSans-900Italic.woff") format("woff"), url("../fonts/museosans/MuseoSans-900Italic.ttf") format("truetype"), url("../fonts/museosans/MuseoSans-900Italic.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$goldcolor: #ba8746;
+$apink: #ff69b4;
+$tengahmaksa:50%-5.65%;
+$m1: 'Conv_MuseoSans-100';
+$m1i: 'Conv_MuseoSans-100Italic';
+$m3: 'Conv_MuseoSans-300';
+$m3i: 'Conv_MuseoSans-300Italic';
+$m5: 'Conv_MuseoSans_500';
+$m5i: 'Conv_MuseoSans_500_Italic';
+$m7: 'Conv_MuseoSans_700';
+$m7i: 'Conv_MuseoSans-700Italic';
+$m9: 'Conv_MuseoSans_900';
+$m9i: 'Conv_MuseoSans-900Italic';
+html,
+body {
+    margin: 0;
+    padding: 0;
+    // background: #ccc;
+}
+
+// @mixin btn($bgcol) {
+//     background-color: $bgcol;
+//     border: none;
+//     padding: 10px 40px;
+//     display: block;
+//     margin: 0 auto;
+//     color: white;
+//     font: {
+//         size: 16px;
+//         weight: bold;
+//     }
+//     text: {
+//         transform: uppercase;
+//     }
+// }
+// .btn,
+// button,
+// input[submit] {
+//     @include btn(#000);
+// }
+.gold-textcolor // ,
+// @mixin textcolor($col) 
+{
+    color: $goldcolor;
+}
+
+.gold-bgcolor // ,
+// @mixin bgcolor($col) 
+{
+    background-color: $goldcolor;
+}
+
+html,
+body,
+div,
+span,
+a,
+ul,
+ol,
+li,
+form,
+label,
+input,
+button,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font: {
+        family: $m3 !important;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    // background: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+div,
+span,
+a,
+label,
+input,
+button,
+form,
+table,
+thead,
+tbody,
+tr,
+th,
+td,
+{
+    color: white;
+}
+
+h1 {
+    // color: #ff4467;
+}
+
+#intro_video {
+    position: fixed;
+    z-index: -1;
+}
+
+.logo-container {
+    margin: 0 auto;
+    width: 146px;
+    min-height: 117px;
+    // margin-top: 50px;
+    // margin-bottom: 50px;
+    padding: 50px 0 0 0;
+    #home-logo {
+        width: 146px;
+        height: 117px;
+        display: block;
+        background: url("../images/logohome.png") no-repeat top center;
+        -webkit-background-size: contain;
+        background-size: contain;
+        // margin: 0 auto;
+    }
+}
+
+#head {
+    width: 100%;
+    height: 70px;
+    // position: relative;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 99;
+    .head-side {
+        width: 50%;
+        height: inherit;
+        span {
+            padding: 15px 0 0 0;
+            display: inline-block;
+            a {
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+            }
+        }
+    }
+    #logo {
+        padding: 0 0 0 15px;
+        display: inline-block;
+        span {
+            a {
+                display: block;
+                .logo-img {
+                    height: 47px;
+                    width: 185px;
+                    margin: 7px 0 0 0;
+                    background: url("../images/logoinside.png") no-repeat center center;
+                    // background-size: contain;
+                }
+                color: white;
+                font: {
+                    family: georgia;
+                    style: italic;
+                    size: 24px;
+                    weight: bold;
+                }
+            }
+            @media screen and (min-width: 768px) {
+                // a {
+                //     display: none;
+                //     .logo-img {
+                //         display: none;
+                //     }
+                // }
+            }
+            @media screen and (max-width: 768px) {
+                a {
+                    display: block;
+                    .logo-img {
+                        display: block;
+                    }
+                }
+                .logo-img {
+                    display: block;
+                }
+            }
+        }
+    }
+    #burger-menu {
+        padding: 0 15px 0 0;
+        float: right;
+        text-align: right;
+        display: inline;
+        span {
+            a {
+                border: solid 1px rgba(255, 255, 255, .15);
+                background: {
+                    color: rgba(0, 0, 0, .05);
+                }
+                .bar-menu {
+                    width: 70%;
+                    height: 3px;
+                    display: block;
+                    background: $goldcolor;
+                    margin: 0 auto;
+                    margin-bottom: 10%;
+                    padding: 0;
+                }
+                span:nth-child(1) {
+                    margin-top: 29%;
+                }
+            }
+            a:hover {
+                background: {
+                    color: rgba(0, 0, 0, .1);
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 0 2%;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    margin: 0 auto;
+    div {
+        height: 50px;
+        display: inline;
+        width: 50%;
+    }
+    #foot-left {
+        float: left;
+        margin: 6px 0 0 0;
+        .copyright {
+            font: {
+                size: 12px;
+            }
+            margin: 12px 0 0 10px;
+            position: absolute;
+        }
+        a {
+            display: inline;
+            // margin: -25px 0 0 0;
+            span {
+                width: 31px;
+                height: 31px;
+                display: inline-block;
+                border: solid 1px $goldcolor;
+                border-radius: 50%;
+            }
+        }
+        a:nth-child(1) {
+            span {
+                background: url("../images/icon-social.png") no-repeat center left;
+            }
+        }
+        a:nth-child(2) {
+            span {
+                background: url("../images/icon-social.png") no-repeat center right;
+            }
+        }
+    }
+    #foot-right {
+        float: right;
+        a {
+            float: right;
+            padding: 4px 45px;
+            background: none;
+            border: solid 1px $goldcolor;
+            color: $goldcolor;
+            font: {
+                family: $m7 !important;
+                size: 12px;
+            }
+            text: {
+                transform: uppercase;
+            }
+        }
+        #btn-share{
+            border: solid 1px #ccc;
+            color: #ccc;
+        }
+    }
+}
+
+.vertical {
+    width: 1px;
+    height: 17%;
+    margin: 0 auto;
+    display: block;
+    background: rgba(255, 255, 255, .25);
+    margin-top: 2%;
+}
+
+#opening-text {
+    h5 {
+        text: {
+            align: center;
+        }
+        display: block;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 20px;
+        color: $goldcolor;
+    }
+    hr{
+        width: 30px;
+        height: 1px;
+        background: $goldcolor;
+        color: $goldcolor;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-color: $goldcolor;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    margin-top: 0;
+}
+
+#section0 {
+    // margin: -50px 0 0 0;
+}
+
+#section0,
+#section1,
+#section2 {
+    z-index: 99;
+    // height: 768px;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease-in;
+    transition-duration: 0.15s;
+    transition-timing-function: cubic-bezier(x1, y1, x2, y2);
+}
+
+.section {
+    background: black;
+}
+
+#section0 {
+    background: none;
+}
+
+// #section1{
+//     z-index: 99;
+// }
+#section1,
+#section2 {
+    // margin: -9px 0 0 0;
+    // margin: -48px 0px 0px 0px;
+    // margin: -125px 0px 0px 0px;
+}
+
+.container {
+    width: 100%;
+    height: 200px;
+}
+
+.section {
+    h2,
+    h3 {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 22%;
+        text-transform: uppercase;
+    }
+    h2{
+        font:{
+            size: 60px;
+        }
+    }
+    h3 {
+        padding-top: 15%;
+    }
+    p {
+        margin: 0 auto;
+        text-align: center;
+        font:{
+            size: 14px;
+        }
+    }
+    .services-wrapper {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        a {
+            display: block;
+            margin: 0 auto;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    width: 20px;
+            height: 20px;
+            padding: 20px;
+            margin-top: 20%;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            background: $goldcolor;
+            .services-link {
+                display: block;
+                margin: 0 auto;
+                width: 20px;
+                height: 20px;
+                background: url("../images/icon-plus.png") no-repeat center left;
+                position: absolute;
+                margin-top: -10px;
+                margin-left: -10px;
+            }
+        }
+        span {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            color: $goldcolor;
+        }
+    }
+}
+
+.owl-theme .owl-controls {
+    margin-top: 40px;
+}
+
+.owl-carousel {
+    .owl-wrapper-outer {
+        .owl-wrapper {
+            .item {
+                a {
+                    h1,
+                    h5 {
+                        text: {
+                            align: center;
+                        }
+                    }
+                    h1 {
+                        text: {
+                            transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.owl-theme {
+    .owl-controls {
+        .owl-page {
+            span {
+                width: 6px;
+                height: 6px;
+                background: $goldcolor;
+            }
+        }
+    }
+}
+
+.action-wrapper {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    .action-item {
+        width: 50%;
+        display: inline;
+        float: left;
+        margin: 50px 0 0 0;
+        a {
+            span {
+                color: $goldcolor;
+                text: {
+                    align: center;
+                }
+                margin: 0 auto;
+                display: block;
+                width: 100px;
+            }
+            .link-icon {
+                width: 125px;
+                height: 125px;
+                border: solid 1px $goldcolor;
+                display: block;
+                border-radius: 50%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            #link-about {
+                background: url("../images/icon-action.png") no-repeat bottom left;
+            }
+            #link-work {
+                background: url("../images/icon-action.png") no-repeat bottom center;
+            }
+        }
+    }
+}
+
+.svg-container {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    svg {
+        margin: 0 auto;
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin-top: -71.5%;
+        // opacity: 0.05;
+        -webkit-transition-duration: 3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-duration: 3s;
+        transition-timing-function: cubic-bezier(x1, y1, x2, y2);
+        opacity: 0.25;
+    }
+}

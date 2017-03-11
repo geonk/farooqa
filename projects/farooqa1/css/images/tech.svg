@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="tech" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="154.1px" height="148px" viewBox="0 0 154.1 148" style="enable-background:new 0 0 154.1 148;"
+	 xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+]]>
+</style>
+<g>
+	<line class="st0" x1="131" y1="45" x2="131" y2="55"/>
+	<line class="st0" x1="126" y1="50" x2="136" y2="50"/>
+	<line class="st0" x1="42" y1="16" x2="42" y2="24"/>
+	<line class="st0" x1="38" y1="20" x2="46" y2="20"/>
+	<line class="st0" x1="21" y1="101" x2="21" y2="109"/>
+	<line class="st0" x1="17" y1="105" x2="25" y2="105"/>
+	<line class="st0" x1="142" y1="24" x2="142" y2="28"/>
+	<line class="st0" x1="140" y1="26" x2="144" y2="26"/>
+	<path class="st0" d="M126.7,124.5C113.4,138.4,94.7,147,74,147c-13.9,0-26.8-3.9-37.9-10.6"/>
+	<path class="st0" d="M6.7,45.6C17.8,19.4,43.8,1,74,1c40.3,0,73,32.7,73,73c0,3.5-0.2,6.9-0.7,10.3"/>
+	<path class="st0" d="M23.1,126.4C9.5,113.1,1,94.5,1,74c0-7.1,1-13.9,2.9-20.4"/>
+	<polyline class="st0" points="87.6,36.9 112.7,33.1 119.9,80.5 37.9,93.1 36.9,86.4 	"/>
+	<rect x="8" y="31" transform="matrix(0.9319 -0.3626 0.3626 0.9319 -16.574 21.6917)" class="st0" width="83" height="48"/>
+	<rect x="13.8" y="44.7" transform="matrix(0.9319 -0.3626 0.3626 0.9319 -18.1403 22.6666)" class="st0" width="75" height="30"/>
+	<rect x="21.3" y="33.3" transform="matrix(0.932 -0.3626 0.3626 0.932 -9.6896 20.8836)" class="st0" width="59" height="6"/>
+	<path class="st0" d="M85.1,90.9l-14.8,2.3c-1.2,7.6-7.2,12.2-7.2,12.2l13.8-2.1l4.9-0.8l13.8-2.1C95.7,100.4,88.5,97.8,85.1,90.9z"
+		/>
+	<circle class="st0" cx="10.1" cy="52" r="2.4"/>
+	<circle class="st0" cx="17.5" cy="49.1" r="2.4"/>
+	<circle class="st0" cx="126.7" cy="119.1" r="1.5"/>
+	<rect x="119" y="81" transform="matrix(0.9344 0.3563 -0.3563 0.9344 45.3503 -40.5105)" class="st0" width="27.2" height="43.7"/>
+	
+		<rect x="123.1" y="84.3" transform="matrix(0.9343 0.3564 -0.3564 0.9343 44.5752 -40.9922)" class="st0" width="20.9" height="32.3"/>
+	<polygon class="st0" points="100,132 18,132 33.3,117 86.7,117 	"/>
+	<line class="st0" x1="36" y1="121" x2="41" y2="121"/>
+	<line class="st0" x1="46" y1="121" x2="51" y2="121"/>
+	<line class="st0" x1="41" y1="126" x2="46" y2="126"/>
+	<line class="st0" x1="53" y1="126" x2="58" y2="126"/>
+	<line class="st0" x1="63" y1="126" x2="68" y2="126"/>
+	<line class="st0" x1="73" y1="126" x2="78" y2="126"/>
+	<line class="st0" x1="57" y1="121" x2="62" y2="121"/>
+	<line class="st0" x1="68" y1="121" x2="73" y2="121"/>
+	<line class="st0" x1="78" y1="121" x2="83" y2="121"/>
+	<rect x="18" y="132" class="st0" width="82" height="4"/>
+</g>
+</svg>
